@@ -1,0 +1,248 @@
+img {
+  vertical-align: middle;
+}
+
+body {
+  width: 100%;
+}
+
+p {
+  margin: 0;
+}
+
+body,
+html {
+  overflow-x: hidden;
+  min-height: 100%;
+}
+
+.img-all {
+  width: 100%;
+}
+
+.hide {
+  display: none;
+}
+
+.show {
+  display: block;
+}
+
+.p1 {
+  position: relative;
+  overflow: hidden;
+}
+
+.icon-sun {
+  position: absolute;
+  display: block;
+  width: 3rem;
+  height: 3.25rem;
+  background-image: url('../images/sun.png');
+  background-size: contain;
+  animation-duration: 4s;
+  animation-timing-function: ease-out;
+  animation-iteration-count: infinite;
+}
+
+.icon-sun-1 {
+  animation-name: icon-sun-1;
+}
+
+.icon-sun-2 {
+  animation-name: icon-sun-2;
+  animation-delay: 1s;
+}
+
+.icon-sun-3 {
+  animation-name: icon-sun-3;
+  animation-delay: 2s;
+}
+
+.icon-sun-4 {
+  animation-name: icon-sun-4;
+  animation-delay: 3s;
+}
+
+.icon-sun-5 {
+  animation-name: icon-sun-5;
+  animation-delay: 4s;
+}
+
+.icon-sun-6 {
+  animation-name: icon-sun-6;
+  animation-delay: 5s;
+}
+
+.icon-sun-7 {
+  animation-name: icon-sun-7;
+  animation-delay: 6s;
+}
+
+.icon-sun-8 {
+  animation-name: icon-sun-8;
+}
+
+@keyframes icon-sun-1 {
+  0% {
+    right: 0;
+    top: 0;
+  }
+  100% {
+    right: 100%;
+    top: 20%;
+  }
+}
+
+@keyframes icon-sun-2 {
+  0% {
+    right: 0;
+    top: 0;
+  }
+  100% {
+    right: 100%;
+    top: 40%;
+  }
+}
+
+@keyframes icon-sun-3 {
+  0% {
+    right: 0;
+    top: 0;
+  }
+  100% {
+    right: 100%;
+    top: 50%;
+  }
+}
+
+@keyframes icon-sun-4 {
+  0% {
+    right: 0;
+    top: 0;
+  }
+  100% {
+    right: 70%;
+    top: 68%;
+  }
+}
+
+@keyframes icon-sun-5 {
+  0% {
+    right: 0;
+    top: 0;
+  }
+  100% {
+    right: 60%;
+    top: 65%;
+  }
+}
+
+@keyframes icon-sun-6 {
+  0% {
+    right: 0;
+    top: 0;
+  }
+  100% {
+    right: 50%;
+    top: 65%;
+  }
+}
+
+@keyframes icon-sun-7 {
+  0% {
+    right: 0;
+    top: 0;
+  }
+  100% {
+    right: 50%;
+    top: 70%;
+  }
+}
+
+@keyframes icon-sun-8 {
+  0% {
+    right: 0;
+    top: 0;
+  }
+  100% {
+    right: 30%;
+    top: 100%;
+  }
+}
+
+.p-con-1 {
+  background: url('../images/bg_1.jpg') repeat;
+  background-size: cover;
+}
+
+.p-con-2 {
+  background: url('../images/bg_2.jpg') repeat;
+  background-size: cover;
+  padding-bottom: 4rem;
+}
+
+.dot {
+  display: block;
+  margin: 0 auto;
+  padding: 1rem 0 1.5rem 0;
+  width: 0.4rem;
+}
+
+.p2-img {
+  float: left;
+  margin-left: 10%;
+  width: 40%;
+}
+
+.p5-img {
+  float: left;
+  margin-left: 3%;
+  width: 50%;
+}
+
+.p2-text {
+  float: left;
+  margin-left: 5%;
+  width: 40%;
+}
+
+.p5-text {
+  float: left;
+  margin-left: 5%;
+  width: 38%;
+}
+
+.p3-img {
+  display: block;
+  width: 30%;
+  margin: 0 auto;
+  padding: 1.5rem 0;
+}
+
+.p4-text {
+  float: left;
+  width: 40%;
+  margin-left: 10%;
+}
+
+.p4-img {
+  display: block;
+  float: left;
+  margin-left: 4%;
+  width: 40%;
+}
+
+.clearfix::after {
+  display: block;
+  content: '';
+  clear: both;
+}
+
+.p-underline {
+  display: block;
+  width: 1.2rem;
+  height: 0.1rem;
+  background-color: #e50012;
+  margin-bottom: 0.5rem;
+}
