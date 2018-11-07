@@ -49,20 +49,20 @@ html {
 }
 
 .icon-sun-1 {
-  -webkit-animation-name: icon-sun-1;
-  animation-name: icon-sun-1;
+  -webkit-animation-name: icon-sun-7;
+  animation-name: icon-sun-7;
 }
 
 .icon-sun-2 {
-  -webkit-animation-name: icon-sun-2;
-  animation-name: icon-sun-2;
+  -webkit-animation-name: icon-sun-6;
+  animation-name: icon-sun-6;
   -webkit-animation-delay: 1s;
   animation-delay: 1s;
 }
 
 .icon-sun-3 {
-  -webkit-animation-name: icon-sun-3;
-  animation-name: icon-sun-3;
+  -webkit-animation-name: icon-sun-7;
+  animation-name: icon-sun-7;
   -webkit-animation-delay: 2s;
   animation-delay: 2s;
 }
@@ -93,77 +93,6 @@ html {
   animation-name: icon-sun-7;
   -webkit-animation-delay: 6s;
   animation-delay: 6s;
-}
-
-.icon-sun-8 {
-  -webkit-animation-name: icon-sun-8;
-  animation-name: icon-sun-8;
-}
-
-@-webkit-keyframes icon-sun-1 {
-  0% {
-    right: 0;
-    top: 0;
-  }
-  100% {
-    right: 100%;
-    top: 20%;
-  }
-}
-
-@keyframes icon-sun-1 {
-  0% {
-    right: 0;
-    top: 0;
-  }
-  100% {
-    right: 100%;
-    top: 20%;
-  }
-}
-
-@-webkit-keyframes icon-sun-2 {
-  0% {
-    right: 0;
-    top: 0;
-  }
-  100% {
-    right: 100%;
-    top: 40%;
-  }
-}
-
-@keyframes icon-sun-2 {
-  0% {
-    right: 0;
-    top: 0;
-  }
-  100% {
-    right: 100%;
-    top: 40%;
-  }
-}
-
-@-webkit-keyframes icon-sun-3 {
-  0% {
-    right: 0;
-    top: 0;
-  }
-  100% {
-    right: 100%;
-    top: 50%;
-  }
-}
-
-@keyframes icon-sun-3 {
-  0% {
-    right: 0;
-    top: 0;
-  }
-  100% {
-    right: 100%;
-    top: 50%;
-  }
 }
 
 @-webkit-keyframes icon-sun-4 {
@@ -251,28 +180,6 @@ html {
   100% {
     right: 50%;
     top: 70%;
-  }
-}
-
-@-webkit-keyframes icon-sun-8 {
-  0% {
-    right: 0;
-    top: 0;
-  }
-  100% {
-    right: 30%;
-    top: 100%;
-  }
-}
-
-@keyframes icon-sun-8 {
-  0% {
-    right: 0;
-    top: 0;
-  }
-  100% {
-    right: 30%;
-    top: 100%;
   }
 }
 

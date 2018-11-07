@@ -2,7 +2,11 @@ $(function() {
   window.shake(function() {
     $('#index').hide()
     $('#container').show()
-    run()
+    setTimeout(function() {
+      $('#p-wrap').show()
+      run()
+      $.scrollTo($('#p1').height(), 1000, 'linear')
+    }, 8 * 1000);
   })
 
   function run() {
