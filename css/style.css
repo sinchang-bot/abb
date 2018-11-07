@@ -208,6 +208,7 @@ html {
 }
 
 .p5-img {
+  position: relative;
   float: left;
   margin-left: 3%;
   width: 50%;
@@ -257,4 +258,15 @@ html {
   height: 0.1rem;
   background-color: #e50012;
   margin-bottom: 0.5rem;
+}
+
+.leaf-img {
+  width: 100%;
+}
+
+.car-img {
+  position: absolute;
+  right: 5%;
+  top: 5%;
+  width: 70%;
 }

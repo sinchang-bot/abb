@@ -5,7 +5,7 @@ $(function() {
     setTimeout(function() {
       $('#p-wrap').show()
       run()
-      $.scrollTo($('#p1').height(), 1000, 'linear')
+      $.scrollTo($('#p1').height(), 500, 'linear')
     }, 8 * 1000);
   })
 
@@ -35,9 +35,15 @@ $(function() {
       origin: 'right'
     })
 
-    sr.reveal('.p5-img', {
+    sr.reveal('.car-img', {
       distance: '100px',
       origin: 'left'
+    })
+
+    sr.reveal('.leaf-img', {
+      distance: '1000px',
+      origin: 'left',
+      delay: 200
     })
 
     sr.reveal('.p5-text', {
