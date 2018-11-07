@@ -5,7 +5,7 @@ $(function() {
     setTimeout(function() {
       $('#p-wrap').show()
       run()
-      $.scrollTo($('#p1').height(), 500, 'linear')
+      $.scrollTo($('body').height() - window.innerHeight, 5000, 'linear')
     }, 8 * 1000);
   })
 
@@ -51,22 +51,7 @@ $(function() {
       origin: 'right'
     })
 
-    sr.reveal('.dot-1', {
-      distance: '1000px',
-      origin: 'top'
-    })
-
-    sr.reveal('.dot-2', {
-      distance: '1000px',
-      origin: 'top'
-    })
-
-    sr.reveal('.dot-3', {
-      distance: '1000px',
-      origin: 'top'
-    })
-
-    sr.reveal('.dot-4', {
+    sr.reveal('.dot', {
       distance: '1000px',
       origin: 'top'
     })
