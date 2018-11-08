@@ -1,11 +1,14 @@
 $(function() {
+  var shaked = false
   window.shake(function() {
+    if (shaked) return
+    shaked = true
     $('#index').hide()
     $('#container').show()
     setTimeout(function() {
       $('#p-wrap').show()
       run()
-      $.scrollTo($('body').height() - window.innerHeight, 5000, 'linear')
+      $.scrollTo($('body').height() - window.innerHeight, 8000, 'linear')
     }, 8 * 1000);
   })
 
@@ -22,7 +25,8 @@ $(function() {
 
     sr.reveal('.p2-text', {
       distance: '100px',
-      origin: 'right'
+      origin: 'right',
+      delay:600
     })
 
     sr.reveal('.p4-text', {
@@ -32,7 +36,8 @@ $(function() {
 
     sr.reveal('.p4-img', {
       distance: '100px',
-      origin: 'right'
+      origin: 'right',
+      delay: 600
     })
 
     sr.reveal('.car-img', {
@@ -43,12 +48,13 @@ $(function() {
     sr.reveal('.leaf-img', {
       distance: '1000px',
       origin: 'left',
-      delay: 200
+      delay: 600
     })
 
     sr.reveal('.p5-text', {
       distance: '100px',
-      origin: 'right'
+      origin: 'right',
+      delay: 600
     })
 
     sr.reveal('.dot', {
